@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="imagens/banner.png" alt="Sala de Tela" width="100%">
 </p>
 
@@ -192,6 +192,6 @@ O resultado deve ser:
 ## Código-fonte
 
 - **Projeto original, por Jc007zZ:** [Jc007zZ/discord-screen](https://github.com/Jc007zZ/discord-screen)
-- **Esta versão com app para Windows:** [VitorioCp/vigeance-screen](https://github.com/VitorioCp/vigeance-screen), com instruções para rodar pelo terminal e hospedar fora do seu computador.
+- **Esta versão com app para Windows:** [VitorioCp/sala-de-tela-windows](https://github.com/VitorioCp/sala-de-tela-windows), com instruções para rodar pelo terminal e hospedar fora do seu computador.
 
 O projeto original não declara uma licença no repositório. Este guia e os binários são distribuídos com o devido crédito ao autor, sem qualquer afirmação de autoria sobre a ideia e o código base dele.
