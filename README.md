@@ -126,7 +126,7 @@ Na janela que abre ao compartilhar, **escolha uma aba** e marque a caixinha de �
 
 ### Por que só aba?
 
-Se você escolher a tela inteira, o computador entrega todo o som que está tocando, inclusive o do Discord. Aí todo mundo na call escuta a própria voz de volta, com atraso. Nenhum navegador consegue separar um programa específico dessa captura. Por isso, na tela inteira a transmissão vai **sem som**.
+Se você escolher a tela inteira, o computador entrega todo o som que está tocando, inclusive as vozes de quem está conversando com você. Aí todo mundo escuta a própria voz de volta, com atraso. Nenhum navegador consegue separar um programa específico dessa captura. Por isso, na tela inteira a transmissão vai **sem som**.
 
 ### Quero mostrar a tela inteira e ter som
 
@@ -150,7 +150,7 @@ O endereço muda a cada vez que o app abre uma sala, e some quando o app fecha. 
 O túnel caiu. Ninguém de fora consegue entrar enquanto estiver assim. Volte para a lista de salas e crie a sala de novo.
 
 **O botão de compartilhar abre uma aba e não acontece nada.**
-Isso só acontece pelo navegador. Essa aba precisa continuar aberta enquanto você transmite. Pode voltar para o Discord normalmente, só não feche a aba.
+Isso só acontece pelo navegador. Essa aba precisa continuar aberta enquanto você transmite. Pode trocar de janela normalmente, só não feche a aba.
 
 **Não sai som.**
 Abra o botão de informações na barra de baixo e olhe a linha **Som**. Ela diz em qual dos casos você está: sem áudio na transmissão, esperando o áudio, silenciado ou tocando.
@@ -192,6 +192,6 @@ O resultado deve ser:
 ## Código-fonte
 
 - **Projeto original, por Jc007zZ:** [Jc007zZ/discord-screen](https://github.com/Jc007zZ/discord-screen)
-- **Esta versão com app para Windows:** [VitorioCp/vigeance-screen](https://github.com/VitorioCp/vigeance-screen), com instruções para rodar pelo terminal, usar dentro do Discord e hospedar fora do seu computador.
+- **Esta versão com app para Windows:** [VitorioCp/vigeance-screen](https://github.com/VitorioCp/vigeance-screen), com instruções para rodar pelo terminal e hospedar fora do seu computador.
 
 O projeto original não declara uma licença no repositório. Este guia e os binários são distribuídos com o devido crédito ao autor, sem qualquer afirmação de autoria sobre a ideia e o código base dele.
