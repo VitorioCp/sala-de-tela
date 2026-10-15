@@ -14,9 +14,22 @@ A sala existe enquanto o app estiver aberto. Fechou, acabou. Não fica nada no a
 
 ---
 
+## Créditos
+
+Este projeto **não é uma criação original minha**. Ele é uma melhoria, em forma de aplicativo para Windows, do projeto **[discord-screen](https://github.com/Jc007zZ/discord-screen)**, criado por **[Jc007zZ](https://github.com/Jc007zZ)**.
+
+Toda a ideia central é dele: o compartilhamento de tela por WebCodecs e WebSocket, sem WebRTC, com baixa latência, e a estrutura de salas. Meu trabalho foi em cima da versão dele: empacotar tudo num app de desktop que cria a sala e abre o endereço público sozinho, a entrada por link dentro do app, e este guia.
+
+Se o projeto te foi útil, o reconhecimento principal vai para o autor original. Dê uma estrela no [repositório dele](https://github.com/Jc007zZ/discord-screen).
+
+---
+
 ## Sumário
 
+- [Créditos](#créditos)
+- [Requisitos](#requisitos)
 - [Instalação](#instalação)
+- [Desinstalar](#desinstalar)
 - [Passo a passo](#passo-a-passo)
 - [Para quem vai assistir](#para-quem-vai-assistir)
 - [Compartilhando com som](#compartilhando-com-som)
@@ -26,7 +39,30 @@ A sala existe enquanto o app estiver aberto. Fechou, acabou. Não fica nada no a
 
 ---
 
+## Requisitos
+
+- Windows 10 ou 11, 64 bits.
+- Conexão com a internet (o app abre um endereço público para o seu computador).
+- Cerca de 700 MB livres em disco para o app, mais uns 50 MB para o `cloudflared`, que ele baixa sozinho na primeira sala.
+- Nenhuma conta, nenhum cadastro e nenhum programa extra. Quem assiste só precisa de um navegador.
+
+---
+
 ## Instalação
+
+### Instalador, passo a passo
+
+1. Abra a [página de versões](../../releases/latest) e, em **Assets**, clique em `Sala de Tela Setup 0.1.0.exe` para baixar.
+2. Abra o arquivo baixado. Se o Windows mostrar a tela azul **"O Windows protegeu o computador"**, clique em **Mais informações** e depois em **Executar assim mesmo** (explicação logo abaixo).
+3. No assistente, escolha a pasta de instalação ou deixe a padrão, e clique em **Instalar**. Não pede senha de administrador.
+4. Ao terminar, abra **Sala de Tela** pelo atalho da área de trabalho ou pelo menu Iniciar.
+5. Se o Firewall do Windows perguntar sobre acesso à rede, permita. O app precisa disso para criar a sala.
+
+### Versão portátil
+
+Baixe `SaladeTela-portatil-0.1.0.exe`, coloque em qualquer pasta e execute com duplo clique. Não instala nada e não deixa atalhos.
+
+### Qual escolher
 
 Na [página de versões](../../releases/latest) há dois arquivos para Windows:
 
@@ -43,6 +79,12 @@ Vai aparecer uma tela azul dizendo **"O Windows protegeu o computador"**.
 2. Clique em **Executar assim mesmo**.
 
 Isso acontece porque o instalador não é assinado digitalmente. A assinatura é um certificado que custa cerca de US$ 200 por ano. O aviso não é sobre vírus: é o Windows dizendo que não conhece quem publicou.
+
+---
+
+## Desinstalar
+
+Abra **Configurações, Aplicativos, Aplicativos instalados**, procure **Sala de Tela** e clique em **Desinstalar**. Na versão portátil, basta apagar o arquivo.
 
 ---
 
@@ -149,4 +191,7 @@ O resultado deve ser:
 
 ## Código-fonte
 
-O código do app e do servidor está em [VitorioCp/vigeance-screen](https://github.com/VitorioCp/vigeance-screen), com instruções para rodar pelo terminal, usar dentro do Discord e hospedar fora do seu computador.
+- **Projeto original, por Jc007zZ:** [Jc007zZ/discord-screen](https://github.com/Jc007zZ/discord-screen)
+- **Esta versão com app para Windows:** [VitorioCp/vigeance-screen](https://github.com/VitorioCp/vigeance-screen), com instruções para rodar pelo terminal, usar dentro do Discord e hospedar fora do seu computador.
+
+O projeto original não declara uma licença no repositório. Este guia e os binários são distribuídos com o devido crédito ao autor, sem qualquer afirmação de autoria sobre a ideia e o código base dele.
